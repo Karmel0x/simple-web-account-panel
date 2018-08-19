@@ -1,0 +1,5 @@
+ErrorDocument 404 "Error 404 - Page not found"
+
+RewriteEngine on
+RewriteRule ^logout$ ?logout=1
+RewriteRule ^([a-zA-Z0-9]+)$ ?page=$1
