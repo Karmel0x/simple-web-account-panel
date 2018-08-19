@@ -1,7 +1,7 @@
-									<div style="padding: 0 12px 0 6px;">
-                                                <div class=" form-group">
-													<label class="form-group-label">TERMS OF SERVICE / SERVICE AGREEMENT</label>
-													<div class="help-panel-body">
+			<div style="padding: 0 12px 0 6px;">
+                <div class=" form-group">
+					<label class="form-group-label">TERMS OF SERVICE / SERVICE AGREEMENT</label>
+					<div class="help-panel-body">
     <p>This website may contain content which you do not agree to or may not understand.
     If you persist on exploring this web domain be aware that any person or party with relation(association) to Barunson Games, Aeria Games, Gamigo or Bilagames, are not allowed here to view our content.
     Any person who would disclose information of this websites private features to any corporation/company or any entity (including Barunson Games, Aeria Games, Gamigo or Bilagames) are not allowed to view content here. 
@@ -52,6 +52,6 @@
     We are also not affiliated with any of the already named organizations/companies or to put it straight any association, organization or company that is related to any of the content hosted here at <?php echo $server_name; ?>. This is strictly a fan based development association. 	
 	<br/><br/>
 
-													</div>
-												</div>
-                                    </div>
+					</div>
+				</div>
+            </div>
