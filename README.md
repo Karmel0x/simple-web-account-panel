@@ -6,7 +6,10 @@ just place the main page on domain.com and panel on the domain.com/cabinet/
 ## Features
 - Using PDO MySQL
 - Structural oriented
-- Passwords are hashed with md5 as LC using but it's not the best practice
+```
+Passwords are hashed with md5 as LC using but it's not the best practice
+There is no limit of login attempts, it would be good to add a captcha or something
+```
 
 ## Screenshots
 - [Screenshot 1](https://raw.githubusercontent.com/Karmel0x/simple-web-account-panel/master/Screenshot1.jpg)
