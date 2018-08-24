@@ -7,7 +7,7 @@ just place the main page on domain.com and panel on the domain.com/cabinet/
 - Using PDO MySQL
 - Structural oriented
 ```
-Passwords are hashed with md5 as LC using but it's not the best practice
+Passwords are hashed with not salted md5 as LC using but it's not the best practice
 There is no limit of login attempts, it would be good to add a captcha or something
 ```
 
