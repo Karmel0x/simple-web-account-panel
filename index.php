@@ -1,6 +1,5 @@
 <?php
-	if(empty($_GET['page'])) $page='index';
-	else $page=preg_replace("/[^a-zA-Z0-9]/" , "" , $_GET['page']);
+	$page = empty($_GET['page']) ? 'index' : preg_replace("/[^a-zA-Z0-9]/", "", $_GET['page']);
 
 	session_start();
 
