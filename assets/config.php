@@ -11,6 +11,7 @@
 	error_reporting(0);
 	date_default_timezone_set('Europe/Berlin');
 	
-	$requestip = $_SERVER['REMOTE_ADDR'];// HTTP_X_FORWARDED_FOR only while using cloudflare
+	//HTTP_X_FORWARDED_FOR only while using cloudflare
+	$requestip = /*!empty($_SERVER['HTTP_X_FORWARDED_FOR']) ? $_SERVER['HTTP_X_FORWARDED_FOR'] :*/ $_SERVER['REMOTE_ADDR'];
 	
 ?>
